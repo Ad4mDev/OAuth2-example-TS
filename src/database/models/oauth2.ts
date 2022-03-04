@@ -18,3 +18,4 @@ const Oauth2Model = Mongoose.model<
   Oauth2 & Mongoose.Document,
   Mongoose.Model<Oauth2 & Mongoose.Document>
 >('Oauth2', Oauth2Schema);
+export { Oauth2Model };
