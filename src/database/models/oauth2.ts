@@ -13,3 +13,8 @@ class Oauth2 {
   public id: string;
 }
 const Oauth2Schema: Mongoose.Schema = buildSchema(Oauth2);
+
+const Oauth2Model = Mongoose.model<
+  Oauth2 & Mongoose.Document,
+  Mongoose.Model<Oauth2 & Mongoose.Document>
+>('Oauth2', Oauth2Schema);
