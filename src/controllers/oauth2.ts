@@ -8,3 +8,5 @@ class Oauth2Controller {
     res.send('discord');
   }
 }
+
+export { Oauth2Controller };
