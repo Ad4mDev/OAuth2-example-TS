@@ -12,3 +12,4 @@ class Oauth2 {
   @field
   public id: string;
 }
+const Oauth2Schema: Mongoose.Schema = buildSchema(Oauth2);
