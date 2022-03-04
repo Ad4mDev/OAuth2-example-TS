@@ -10,3 +10,5 @@ const config = {
     callback_uri: '',
   },
 } as const;
+
+export default config;
